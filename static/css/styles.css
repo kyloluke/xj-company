@@ -35,8 +35,8 @@ Template:		Legaland - Landing Page for business
 :root {
     --main-color: #047857;
     --text-color: #111827;
-    --accent-text-color: #9CA3AF;
-    --font-family: 'Poppins', sans-serif;
+    --accent-text-color: #444444;
+    /*--font-family: 'Helvetica', sans-serif;*/
 }
 
 /*===============================================*/
@@ -97,7 +97,7 @@ Template:		Legaland - Landing Page for business
 /* 04. TYPOGRAPHY 						    	 */
 /*===============================================*/
 body {
-    font-family: var(--font-family);
+    /*font-family: var(--font-family);*/
 }
 
 .font-size-12 {
