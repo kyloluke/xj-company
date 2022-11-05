@@ -230,7 +230,7 @@ a:hover {
 /*===============================================*/
 .company-logo img {
     width: 140px;
-    filter: grayscale(100%);
+    /*filter: grayscale(100%);*/
 }
 
 .company-logo img:hover {
