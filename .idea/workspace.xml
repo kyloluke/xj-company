@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea0329e1-4659-4d12-a10c-1eca25486673" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xj-company.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/YouTubePopUp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/css2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/pace-theme-loading-bar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiEyp8kv8JHgFVrJJbecmNE.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiEyp8kv8JHgFVrJJfecg.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/font/pxiEyp8kv8JHgFVrJJnecmNE.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/circles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/circles2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/video-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/YouTubePopUp.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/feather.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/pace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/author1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/b2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/b3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/b4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/b5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/douyin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/envato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/jumping.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/kuaishou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/laravel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/logo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/sitting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/strolling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/user1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/user3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/user4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/picture/wp.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H7D1kPO2TtWkZgKKaAiAGKOQvN" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\xj-company\static\picture" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea0329e1-4659-4d12-a10c-1eca25486673" name="Changes" comment="" />
+      <created>1667627016834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667627016834</updated>
+      <workItem from="1667627018143" duration="8608000" />
+      <workItem from="1668743031905" duration="30000" />
+      <workItem from="1668845856965" duration="5963000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
