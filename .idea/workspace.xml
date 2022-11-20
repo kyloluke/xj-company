@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea0329e1-4659-4d12-a10c-1eca25486673" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy-policy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teams.html" beforeDir="false" afterPath="$PROJECT_DIR$/teams.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\xj-company" />
       <recent name="E:\projects\xj-company\static\picture" />
     </key>
   </component>
@@ -62,7 +59,7 @@
       <workItem from="1668743031905" duration="30000" />
       <workItem from="1668845856965" duration="5963000" />
       <workItem from="1668858560084" duration="9019000" />
-      <workItem from="1668960363283" duration="965000" />
+      <workItem from="1668960363283" duration="2657000" />
     </task>
     <servers />
   </component>
