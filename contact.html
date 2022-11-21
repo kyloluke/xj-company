@@ -24,7 +24,7 @@
 
   <link rel="stylesheet" href="static/css/responsive.css">
 
-  <title>Bonsa - SEO & Marketing Company HTML Template</title>
+  <title>陕西中佳星宇网络技术有限公司-联系我们</title>
 
 </head>
 <body>
@@ -33,12 +33,11 @@
   <div class="preloader-wave"></div>
 </div>
 
-
 <div class="navbar-area">
 
   <div class="mobile-nav">
     <a href="index.html" class="logo">
-      <img src="static/picture/logo.png" alt="Logo">
+      <img src="static/picture/logo.png" alt="Logo" style="width: 80px">
     </a>
   </div>
 
@@ -174,54 +173,43 @@
       </p>
     </div>
     <div class="contact-wrap pt-45">
-      <div class="contact-wrap-form">
-        <form id="contactForm">
-          <div class="row">
-            <div class="col-lg-6 col-sm-6">
-              <div class="form-group">
-                <input type="text" name="name" id="name" class="form-control" required="" data-error="Please enter your name" placeholder="Your Name">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="form-group">
-                <input type="email" name="email" id="email" class="form-control" required="" data-error="Please enter your email" placeholder="Your Email">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="form-group">
-                <input type="text" name="phone_number" id="phone_number" required="" data-error="Please enter your number" class="form-control" placeholder="Your Phone">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="form-group">
-                <input type="text" name="msg_subject" id="msg_subject" class="form-control" required="" data-error="Please enter your subject" placeholder="Your Subject">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-lg-12 col-md-12">
-              <div class="form-group">
-                <textarea name="message" class="form-control" id="message" cols="30" rows="8" required="" data-error="Write your message" placeholder="Your Message"></textarea>
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-lg-12 col-md-12 text-center">
-              <button type="submit" class="default-btn page-btn text-center">
-                Send Message
-              </button>
-              <div id="msgSubmit" class="h3 text-center hidden"></div>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-        </form>
-      </div>
+      <div id="myMap"></div>
     </div>
   </div>
 </section>
 
-<div class="linkusone"><div id="ummap"> </div></div>
+
+<style type="text/css">
+    body, html, #myMap {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+        font-family: "微软雅黑";
+    }
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?type=webgl&v=1.0&ak=tjhIFhC2LMbGdsNr2311cK66MP4yxMSl"></script>
+
+<script>
+
+    var map = new BMapGL.Map("myMap");
+    var point = new BMapGL.Point(116.331398, 39.897445);
+    map.centerAndZoom(point, 12);
+
+    var geolocation = new BMapGL.Geolocation();
+    geolocation.getCurrentPosition(function (r) {
+        if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+            var mk = new BMapGL.Marker(r.point);
+            map.addOverlay(mk);
+            map.panTo(r.point);
+            alert('您的位置：' + r.point.lng + ',' + r.point.lat);
+        } else {
+            alert('failed' + this.getStatus());
+        }
+    });
+
+</script>
+
 
 <!--<div class="map-area">-->
 <!--  <div class="container-fluid p-0">-->
@@ -244,7 +232,7 @@
                 地址：陕西省西安市高新区万达广场1号楼 2011室
               </p>
               <p>
-                电话：17788061190  17791396910
+                电话：17788061190 17791396910
               </p>
             </div>
 
@@ -356,43 +344,9 @@
 
 <script src="static/js/form-validator.min.js"></script>
 
-<script src="static/js/contact-form-script.js"></script>
+<!--<script src="static/js/contact-form-script.js"></script>-->
 
 <script src="static/js/custom.js"></script>
 
-<script>
-    (function(){window.BMAP_PROTOCOL = "https"; window.BMap_loadScriptTime = (new Date).getTime(); document.write('<script type="text/javascript" src="https://api.map.baidu.com/getscript?v=3.0&ak=B6825983426aaadd0ba7c423b1a7f1ec&services=&t=20191111160328"></script>');})();
-</script>
-
-<script>
-    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/admin/js/map.js">
-</script>
-<script type="text/javascript">
-    $(function(){
-        var dataX='<?php echo $general_options["xmap"]; ?>';//X坐标
-        var dataY='<?php echo $general_options["ymap"]; ?>';//Y坐标
-//信息标注(需要可放开)
-//var dataN = '<ul>' + $('.contText .boxText').html() + '</ul>';
-// 百度地图API功能
-        var map = new BMap.Map("ummap");
-        var point = new BMap.Point(dataX,dataY);
-        var marker = new BMap.Marker(point);
-        map.addOverlay(marker);
-        map.centerAndZoom(point, 15);
-
-        var opts = {
-            width : 200,
-            title : '' ,
-            enableMessage:true
-        }
-        var infoWindow = new BMap.InfoWindow(dataN, opts); // 创建信息窗口对象
-        map.openInfoWindow(infoWindow,point); //开启信息窗口
-        marker.addEventListener("click", function(){
-            map.openInfoWindow(infoWindow,point); //开启信息窗口
-        });
-
-    });
-</script>
-</script>
 </body>
 </html>
