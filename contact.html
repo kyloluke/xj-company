@@ -316,20 +316,20 @@
 
 <script>
     var map = new BMapGL.Map('myditucontainer');
-    map.centerAndZoom(new BMapGL.Point(108.897109,34.214237, 17));
+    map.centerAndZoom(new BMapGL.Point(108.897109,34.214237), 17);
     map.enableScrollWheelZoom(true);
     var opts = {
         position: new BMapGL.Point(108.897109,34.214237), // 指定文本标注所在的地理位置
         offset: new BMapGL.Size(30, -30) // 设置文本偏移量
     };
     // 创建文本标注对象
-    var label = new BMapGL.Label('陕西省西安市高新区万达广场1号楼 2011室', opts);
+    var label = new BMapGL.Label('陕西省西安市高新区万达广场1号楼', opts);
     // 自定义文本标注样式
     label.setStyle({
         color: 'blue',
         borderRadius: '5px',
         borderColor: '#ccc',
-        padding: '10px',
+        padding: '2px',
         fontSize: '14px',
         fontFamily: '微软雅黑'
     });
